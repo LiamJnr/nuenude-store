@@ -8,7 +8,7 @@ const catalogById = new Map(CATALOG.map((product) => [product.id, product]))
 
 export async function onRequestGet({ env }) {
   const currency = (env?.PAYSTACK_CURRENCY || 'GHS').trim().toUpperCase()
-  const exchangeRate = Number(env?.USD_TO_GHS_RATE || 16.5)
+  const exchangeRate = Number(env?.USD_TO_GHS_RATE || 11.14)
   return json({
     currency,
     exchangeRate,
@@ -49,7 +49,7 @@ export async function onRequestPost({ request, env }) {
     const siteUrl = new URL(request.url).origin
     const redirectUrl = `${siteUrl}/order-confirmed?order=${encodeURIComponent(orderId)}`
     const currency = (env.PAYSTACK_CURRENCY || 'GHS').trim().toUpperCase()
-    const exchangeRate = Number(env.USD_TO_GHS_RATE || 16.5)
+    const exchangeRate = Number(env.USD_TO_GHS_RATE || 11.14)
 
     // If billing in GHS, convert USD cents to GHS pesewas
     const isGHS = currency === 'GHS'

@@ -10,7 +10,7 @@ export async function getCheckoutConfig() {
   } catch (err) {
     console.warn('Could not fetch checkout config:', err)
   }
-  return { currency: 'GHS', exchangeRate: 16.5 }
+  return { currency: 'GHS', exchangeRate: 11.14 }
 }
 
 export async function startCheckout({ items, shippingAddress, email, onSuccess, onCancel }) {

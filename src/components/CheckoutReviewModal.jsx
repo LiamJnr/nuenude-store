@@ -16,7 +16,7 @@ export default function CheckoutReviewModal({
   shippingCost,
   shippingAddress,
   email,
-  exchangeRate = 16.5,
+  exchangeRate = 11.14,
   currency = 'GHS',
 }) {
   useEffect(() => {

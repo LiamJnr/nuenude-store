@@ -18,7 +18,7 @@ export default function CheckoutPage() {
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(false)
   const [isReviewOpen, setIsReviewOpen] = useState(false)
-  const [config, setConfig] = useState({ currency: 'GHS', exchangeRate: 16.5 })
+  const [config, setConfig] = useState({ currency: 'GHS', exchangeRate: 11.14 })
 
   const subtotal = items.reduce((sum, item) => sum + item.price * item.qty, 0)
   const shippingCost = 0
