@@ -15,7 +15,7 @@ export default function ProductPage() {
     return (
       <div>
         <p>Product not found.</p>
-        <Link to="/">Back to products</Link>
+        <Link to="/shop">Back to products</Link>
       </div>
     )
   }
@@ -27,7 +27,7 @@ export default function ProductPage() {
 
   return (
     <article className="product-detail">
-      <Link className="back-link" to="/">← Back to collection</Link>
+      <Link className="back-link" to="/shop">← Back to collection</Link>
       <div className="product-detail-layout">
         <section className="product-gallery" aria-label={`${product.name} images`}>
           <div className="product-main-image"><img src={selectedImage} alt={product.name} /></div>
