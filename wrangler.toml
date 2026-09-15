@@ -1,8 +1,9 @@
-name = "lingerie-store"
+name = "nuenude-store"
 compatibility_date = "2024-09-01"
 pages_build_output_dir = "dist"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "lingerie-store-db"
-database_id = "b27c0c2d-c675-4071-a7fe-a2f6a440360a"
+database_name = "nuenude-store-db"
+database_id = "9061034a-6fa1-4842-955b-de65e48f83df"
+
