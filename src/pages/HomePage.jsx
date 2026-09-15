@@ -7,6 +7,8 @@ export default function HomePage() {
   const addItem = useCart((s) => s.addItem)
   const featuredProducts = PRODUCTS.slice(0, 3)
 
+  const bestSellers = PRODUCTS.slice(0, 6)
+
   function addDefaultSize(product) {
     addItem({ ...product, size: product.sizes[0] })
   }
@@ -18,7 +20,7 @@ export default function HomePage() {
         <div className="hero-copy">
           <p>For the woman you are becoming</p>
           <h1>Explore Your <em>Femininity</em></h1>
-          <a href="#new-and-loved" className="hero-button">Shop Now</a>
+          <Link to="/shop" className="hero-button">Shop Now</Link>
         </div>
       </section>
 
@@ -34,20 +36,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      <aside className="promotion"><p><strong>Complimentary shipping</strong><span>On orders over $100</span></p><a href="#new-and-loved">Discover the edit <span>→</span></a></aside>
+      <aside className="promotion"><p><strong>Complimentary shipping</strong><span>Included on all orders to celebrate our expansion</span></p><Link to="/shop">Discover the edit <span>→</span></Link></aside>
 
       <section className="collection-intro" id="new-and-loved">
-        <div><p className="eyebrow">New softness</p><h2>A smaller edit for slipping into something beautiful.</h2></div>
-        <a className="text-link" href="#new-and-loved">View all pieces <span>→</span></a>
+        <div><p className="eyebrow">Curated edit</p><h2>A curated selection of our most loved silhouettes.</h2></div>
+        <Link className="text-link" to="/shop">View all {PRODUCTS.length} pieces <span>→</span></Link>
       </section>
 
       <section className="product-section" aria-labelledby="new-loved-title">
-        <div className="product-section-heading"><h2 id="new-loved-title">New &amp; Loved</h2><span>{PRODUCTS.length} pieces</span></div>
+        <div className="product-section-heading">
+          <h2 id="new-loved-title">Best Sellers</h2>
+          <Link to="/shop" className="text-link">View full collection ({PRODUCTS.length}) <span>→</span></Link>
+        </div>
         <div className="product-grid">
-        {PRODUCTS.map((p) => (
-          <ProductCard key={p.id} product={p} onQuickAdd={addDefaultSize} />
-        ))}
-      </div>
+          {bestSellers.map((p) => (
+            <ProductCard key={p.id} product={p} onQuickAdd={addDefaultSize} />
+          ))}
+        </div>
       </section>
 
       <section className="category-notes" aria-label="Shop by collection">

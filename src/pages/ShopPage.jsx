@@ -3,7 +3,7 @@ import { PRODUCTS } from '../data/products'
 import ProductCard from '../components/ProductCard'
 import { useCart } from '../store/cart'
 
-const categories = ['All', 'Sets', 'Teddies', 'Sale']
+const categories = ['All', 'Sets', 'Teddies', 'Corsets', 'Garters', 'Babydolls', 'Sale']
 const sizes = ['All', 'XS', 'S', 'M', 'L', 'XL']
 
 export default function ShopPage() {
