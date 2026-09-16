@@ -105,11 +105,11 @@ export default function CheckoutPage() {
         <aside className="checkout-summary">
           <p className="eyebrow">Order summary</p>
           {items.map((item) => (
-            <article key={`${item.id}-${item.size}`}>
+            <article key={`${item.id}-${item.size}-${item.color || 'Default'}`}>
               <img src={item.image} alt="" />
               <div>
                 <h2>{item.name}</h2>
-                <p>Size {item.size} · Qty {item.qty}</p>
+                <p>Size {item.size}{item.color && item.color !== 'Default' ? ` · ${item.color}` : ''} · Qty {item.qty}</p>
               </div>
               <strong>{money(item.price * item.qty)}</strong>
             </article>

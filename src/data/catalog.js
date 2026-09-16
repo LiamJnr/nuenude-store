@@ -2,6 +2,7 @@
 export const CATALOG = [
   {
     id: 'after-midnight',
+    colors: ["Black / Blue"],
     name: 'After Midnight Embroidered Sheer 3 Piece Set',
     price: 42,
     compareAt: 60,
@@ -12,6 +13,7 @@ export const CATALOG = [
   },
   {
     id: 'all-for-you',
+    colors: ["Black","Purple"],
     name: 'All For You Satin Longline Open Cup 2 Piece',
     price: 35,
     sizes: ['S', 'M', 'L', 'XL'],
@@ -21,6 +23,7 @@ export const CATALOG = [
   },
   {
     id: 'always-be-mine',
+    colors: ["Black","Purple","Royal Blue"],
     name: 'Always Be Mine Lace 2 Piece Set',
     price: 38,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -29,6 +32,7 @@ export const CATALOG = [
   },
   {
     id: 'amara',
+    colors: ["Fuchsia"],
     name: 'Amara Mesh Embroidered 3 Piece Set',
     price: 48,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -38,6 +42,7 @@ export const CATALOG = [
   },
   {
     id: 'bare-secrets',
+    colors: ["Black"],
     name: 'Bare Secrets Crotchless Open Cup Lace',
     price: 32,
     compareAt: 48,
@@ -48,6 +53,7 @@ export const CATALOG = [
   },
   {
     id: 'bedroom-dreams',
+    colors: ["Fuchsia"],
     name: 'Bedroom Dreams Mesh Embroidery',
     price: 44,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -56,6 +62,7 @@ export const CATALOG = [
   },
   {
     id: 'daria',
+    colors: ["White Combo"],
     name: 'Daria Mesh Embroidered 3 Piece Bra and Panty',
     price: 54,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -64,6 +71,7 @@ export const CATALOG = [
   },
   {
     id: 'delilah',
+    colors: ["Black"],
     name: 'Delilah 2 Piece Mesh Lace Lingerie Set',
     price: 39,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -72,6 +80,7 @@ export const CATALOG = [
   },
   {
     id: 'dont-call-me-baby',
+    colors: ["Black"],
     name: "Don't Call Me Baby Lace 2 Piece Set",
     price: 40,
     compareAt: 55,
@@ -82,6 +91,7 @@ export const CATALOG = [
   },
   {
     id: 'dont-let-go',
+    colors: ["Black"],
     name: "Don't Let Go Mesh Lace 2 Piece Set",
     price: 36,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -90,6 +100,7 @@ export const CATALOG = [
   },
   {
     id: 'eliza-leopard',
+    colors: ["Black Combo / Leopard"],
     name: 'Eliza Leopard Strappy Mesh 3 Piece Bra and Panty',
     price: 49,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -99,6 +110,7 @@ export const CATALOG = [
   },
   {
     id: 'elvira-corset',
+    colors: ["Black"],
     name: 'Elvira Mesh And Lace Corset 2 Piece Set',
     price: 52,
     compareAt: 70,
@@ -109,6 +121,7 @@ export const CATALOG = [
   },
   {
     id: 'everyones-muse',
+    colors: ["Black","Red"],
     name: "Everyone's Muse Lace Balconette 2 Piece Set",
     price: 45,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -117,6 +130,7 @@ export const CATALOG = [
   },
   {
     id: 'get-into-it',
+    colors: ["Red","Burgundy","Pink"],
     name: 'Get Into It 3 Piece Garter Set',
     price: 50,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -126,6 +140,7 @@ export const CATALOG = [
   },
   {
     id: 'got-it-like-that',
+    colors: ["Black"],
     name: 'Got It Like That Gratchi 3 Piece Garter Set',
     price: 48,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -134,6 +149,7 @@ export const CATALOG = [
   },
   {
     id: 'high-expectations',
+    colors: ["Wine"],
     name: 'High Expectations Ribbon Tie Lace',
     price: 38,
     compareAt: 52,
@@ -144,6 +160,7 @@ export const CATALOG = [
   },
   {
     id: 'katie-bustier',
+    colors: ["Black"],
     name: 'Katie Bustier and Panty 2 Piece Set',
     price: 46,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -152,6 +169,7 @@ export const CATALOG = [
   },
   {
     id: 'lacy-sweet-twist',
+    colors: ["Teal"],
     name: 'Lacy Sweet Twist Lace Wrap Around 3 Piece Set',
     price: 47,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -160,6 +178,7 @@ export const CATALOG = [
   },
   {
     id: 'larina',
+    colors: ["Red"],
     name: 'Larina Mesh Embroidered 2 Piece Set',
     price: 43,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -169,6 +188,7 @@ export const CATALOG = [
   },
   {
     id: 'leave-you-breathless',
+    colors: ["Fuchsia","Burgundy","Plum"],
     name: 'Leave You Breathless Babydoll',
     price: 42,
     sizes: ['S', 'M', 'L', 'XL'],
@@ -177,6 +197,7 @@ export const CATALOG = [
   },
   {
     id: 'lexy-bondage',
+    colors: ["Red"],
     name: 'Lexy Bondage Vinyl Cuff & Teddy Set',
     price: 56,
     compareAt: 75,
@@ -187,6 +208,7 @@ export const CATALOG = [
   },
   {
     id: 'lilliana',
+    colors: ["Black"],
     name: 'Lilliana Mesh Embroidered 2 Piece Set',
     price: 46,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -195,6 +217,7 @@ export const CATALOG = [
   },
   {
     id: 'make-them-stare',
+    colors: ["Black","Blue"],
     name: 'Make Them Stare Mesh Teddy',
     price: 37,
     sizes: ['S', 'M', 'L', 'XL'],
@@ -203,6 +226,7 @@ export const CATALOG = [
   },
   {
     id: 'melt-for-me',
+    colors: ["Wine","Black","Red"],
     name: 'Melt For Me Lace Garter 3 Piece Set',
     price: 49,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -212,6 +236,7 @@ export const CATALOG = [
   },
   {
     id: 'mikayla-satin',
+    colors: ["Black","Pink"],
     name: 'Mikayla 3 Piece Satin Bra And Panty',
     price: 45,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -220,6 +245,7 @@ export const CATALOG = [
   },
   {
     id: 'missy-sheer',
+    colors: ["Violet"],
     name: 'Missy Embroidered Sheer Underwire 3 Piece Set',
     price: 51,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -228,6 +254,7 @@ export const CATALOG = [
   },
   {
     id: 'open-cup-boning',
+    colors: ["Lavender"],
     name: 'Open Cup Boning Garter 2 Piece Set',
     price: 44,
     compareAt: 60,
@@ -238,6 +265,7 @@ export const CATALOG = [
   },
   {
     id: 'real-lace',
+    colors: ["Red"],
     name: 'Real Lace Crotchless Teddy',
     price: 34,
     sizes: ['S', 'M', 'L', 'XL'],
@@ -246,6 +274,7 @@ export const CATALOG = [
   },
   {
     id: 'special-rose',
+    colors: ["Black / Red"],
     name: 'Special Rose Sheer Embroidered 3 Piece Set',
     price: 55,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -255,6 +284,7 @@ export const CATALOG = [
   },
   {
     id: 'stop-calling',
+    colors: ["Black"],
     name: 'Stop Calling Lace Babydoll',
     price: 39,
     compareAt: 54,
@@ -265,6 +295,7 @@ export const CATALOG = [
   },
   {
     id: 'sultry-moments',
+    colors: ["Slate Blue","Burgundy","Black","Turquoise"],
     name: 'Sultry Moments 2 Piece Set',
     price: 36,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -273,6 +304,7 @@ export const CATALOG = [
   },
   {
     id: 'sweet-trouble',
+    colors: ["Fuchsia"],
     name: 'Sweet Trouble Mesh Embroidered 3 Piece Set',
     price: 48,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -281,6 +313,7 @@ export const CATALOG = [
   },
   {
     id: 'tempted-corset',
+    colors: ["Black"],
     name: 'Tempted Mesh 3 Piece Corset And Panty',
     price: 54,
     compareAt: 72,
@@ -291,6 +324,7 @@ export const CATALOG = [
   },
   {
     id: 'tempted-moments-leopard',
+    colors: ["Leopard"],
     name: 'Tempted Moments Leopard 2 Piece Set',
     price: 38,
     sizes: ['S', 'M', 'L', 'XL'],
@@ -299,6 +333,7 @@ export const CATALOG = [
   },
   {
     id: 'tulle-bow-bustier',
+    colors: ["Black"],
     name: 'Tulle Bow Bustier And Panty 2 Piece Set',
     price: 48,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -308,6 +343,7 @@ export const CATALOG = [
   },
   {
     id: 'unleash-me-now',
+    colors: ["Leopard"],
     name: 'Unleash Me Now Crotchless Open Cup',
     price: 35,
     compareAt: 50,
@@ -318,6 +354,7 @@ export const CATALOG = [
   },
   {
     id: 'vivi-satin',
+    colors: ["Purple"],
     name: 'Vivi Satin Strappy 3 Piece Bra and Panty',
     price: 49,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],
@@ -326,6 +363,7 @@ export const CATALOG = [
   },
   {
     id: 'you-do-you',
+    colors: ["Blue"],
     name: 'You Do You Floral Embroidered 3 Piece Set',
     price: 52,
     sizes: ['XS', 'S', 'M', 'L', 'XL'],

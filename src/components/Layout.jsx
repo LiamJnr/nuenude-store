@@ -3,6 +3,7 @@ import { Outlet } from 'react-router'
 import CartDrawer from './CartDrawer'
 import Header from './Header'
 import Footer from './Footer'
+import ExpansionModal from './ExpansionModal'
 
 export default function Layout() {
   const [cartOpen, setCartOpen] = useState(false)
@@ -13,6 +14,7 @@ export default function Layout() {
       <main className="page-content"><Outlet /></main>
       <Footer />
       <CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} />
+      <ExpansionModal />
     </div>
   )
 }

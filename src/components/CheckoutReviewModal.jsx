@@ -122,7 +122,7 @@ export default function CheckoutReviewModal({
                 <span>Opening secure payment…</span>
               ) : (
                 <>
-                  <span>Pay {moneyUSD(usdTotal)} with Card</span>
+                  <span>PROCEED TO CHECKOUT</span>
                   <span className="pay-arrow">→</span>
                 </>
               )}

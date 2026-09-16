@@ -147,10 +147,11 @@ function validateItems(items) {
     const product = catalogById.get(String(item?.id || ''))
     const qty = Number(item?.qty)
     const size = String(item?.size || '').trim()
+    const color = item?.color ? String(item.color).trim() : (product?.colors?.[0] || 'Default')
     if (!product) throw new Error('One of the items in your bag is no longer available.')
     if (!Number.isInteger(qty) || qty < 1 || qty > MAX_QUANTITY_PER_LINE) throw new Error('Please choose a valid quantity for every item.')
     if (!product.sizes.includes(size)) throw new Error(`Please choose a valid size for ${product.name}.`)
-    return { id: product.id, name: product.name, size, qty, unit_price_cents: Math.round(product.price * 100) }
+    return { id: product.id, name: product.name, size, color, qty, unit_price_cents: Math.round(product.price * 100) }
   })
 }
 

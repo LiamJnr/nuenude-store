@@ -21,7 +21,7 @@ export default function CartPage() {
     <div>
       <h1>Cart</h1>
       {items.map((item) => (
-        <CartItem key={`${item.id}-${item.size}`} item={item} />
+        <CartItem key={`${item.id}-${item.size}-${item.color || 'Default'}`} item={item} />
       ))}
       <p>
         <strong>Total: ${total().toFixed(2)}</strong>

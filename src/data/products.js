@@ -11,6 +11,17 @@ const PRODUCT_MEDIA = {
     ]
   },
   "all-for-you": {
+    "colorMedia": {
+      "Black": [
+            "/imgs/All For You Satin Longline Open Cup 2 Piece.webp",
+            "/imgs/All For You Satin Longline Additional Images/11201FNL_Black_JR_V2.webp",
+            "/imgs/All For You Satin Longline Additional Images/11201FNL_Black_JR_V3.webp"
+      ],
+      "Purple": [
+            "/imgs/All For You Satin Longline Additional Images/11201FNL_Purple_JR_V1.webp",
+            "/imgs/All For You Satin Longline Additional Images/11201FNL_Purple_JR_V2.webp"
+      ]
+},
     "image": "/imgs/All For You Satin Longline Open Cup 2 Piece.webp",
     "gallery": [
       "/imgs/All For You Satin Longline Open Cup 2 Piece.webp",
@@ -21,6 +32,23 @@ const PRODUCT_MEDIA = {
     ]
   },
   "always-be-mine": {
+    "colorMedia": {
+      "Black": [
+            "/imgs/Always Be Mine Lace 2 Piece Set.webp",
+            "/imgs/Always Be Mine Lace 2 Piece Set Additional Images/01-05-24_S1_4_2237_Black_TK_AC_11-17-31_3131_PXF.webp",
+            "/imgs/Always Be Mine Lace 2 Piece Set Additional Images/01-05-24_S1_4_2237_Black_TK_AC_11-17-49_3138_PXF.webp",
+            "/imgs/Always Be Mine Lace 2 Piece Set Additional Images/01-05-24_S1_4_2237_Black_TK_AC_11-18-36_3142_PXF.webp"
+      ],
+      "Purple": [
+            "/imgs/Always Be Mine Lace 2 Piece Set Additional Images/01-19-24_S4_21_2237_Purple_KT_SS_11-58-48_34701_CM.webp",
+            "/imgs/Always Be Mine Lace 2 Piece Set Additional Images/01-19-24_S4_21_2237_Purple_KT_SS_11-59-07_34704_CM.webp"
+      ],
+      "Royal Blue": [
+            "/imgs/Always Be Mine Lace 2 Piece Set Additional Images/10-20-25_S1_4_2237_Royal_ZSR_RK_RA_11-08-45_2404_PXF.webp",
+            "/imgs/Always Be Mine Lace 2 Piece Set Additional Images/10-20-25_S1_4_2237_Royal_ZSR_RK_RA_11-09-10_2409_PXF.webp",
+            "/imgs/Always Be Mine Lace 2 Piece Set Additional Images/10-20-25_S1_4_2237_Royal_ZSR_RK_RA_11-10-32_2412_PXF.webp"
+      ]
+},
     "image": "/imgs/Always Be Mine Lace 2 Piece Set.webp",
     "gallery": [
       "/imgs/Always Be Mine Lace 2 Piece Set.webp",
@@ -112,6 +140,18 @@ const PRODUCT_MEDIA = {
     ]
   },
   "everyones-muse": {
+    "colorMedia": {
+      "Black": [
+            "/imgs/Everyone's Muse Lace Balconette 2 Piece Set.webp",
+            "/imgs/Everyone's Muse Lace Balconette 2 Piece Set Additional Images/09-04-25_S1PM_105_ZDS1005_Black_CR_JS_19-56-49_71981_PXF.webp",
+            "/imgs/Everyone's Muse Lace Balconette 2 Piece Set Additional Images/09-04-25_S1PM_105_ZDS1005_Black_CR_JS_19-56-49_71984_PXF.webp",
+            "/imgs/Everyone's Muse Lace Balconette 2 Piece Set Additional Images/09-04-25_S1PM_105_ZDS1005_Black_CR_JS_19-56-49_71985_PXF.webp"
+      ],
+      "Red": [
+            "/imgs/Everyone's Muse Lace Balconette 2 Piece Set Additional Images/11-05-25_S2_14_ZDS1005_Red_ZSR_KK_AC_11-21-11_8594_PXF.webp",
+            "/imgs/Everyone's Muse Lace Balconette 2 Piece Set Additional Images/11-05-25_S2_14_ZDS1005_Red_ZSR_KK_AC_11-21-24_8597_PXF.webp"
+      ]
+},
     "image": "/imgs/Everyone's Muse Lace Balconette 2 Piece Set.webp",
     "gallery": [
       "/imgs/Everyone's Muse Lace Balconette 2 Piece Set.webp",
@@ -123,6 +163,25 @@ const PRODUCT_MEDIA = {
     ]
   },
   "get-into-it": {
+    "colorMedia": {
+      "Red": [
+            "/imgs/Get Into It 3 Piece Garter Set.webp",
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/01-19-24_S4_23_BST001FN_Red_P_KT_SS_13-13-49_34733_CM.webp",
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/01-19-24_S4_23_BST001FN_Red_P_KT_SS_13-14-57_34741_CM.webp"
+      ],
+      "Burgundy": [
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/01-23-24_S3_9_BST001FN_Burgundy_P_TK_IM_11-12-58_2110_CM.webp",
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/01-23-24_S3_9_BST001FN_Burgundy_P_TK_IM_11-13-10_2113_CM.webp",
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/01-23-24_S3_9_BST001FN_Burgundy_P_TK_IM_11-14-00_2115_CM.webp",
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/07-30-24_S4_2_BST001FN_Burgundy_ID_PC_10-37-04_PLUS_43111_PXF_SG_1.webp"
+      ],
+      "Pink": [
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/12-23-25_S6_16_BST001FN_Pink_LR_SS_14-32-31_1215_PXF.webp",
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/12-23-25_S6_16_BST001FN_Pink_LR_SS_14-32-31_1226_PXF.webp",
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/12-23-25_S6_16_BST001FN_Pink_LR_SS_14-32-31_1230_PXF.webp",
+            "/imgs/Get Into It 3 Piece Garter Set Additional Images/12-23-25_S6_16_BST001FN_Pink_LR_SS_14-32-31_1269_PXF.webp"
+      ]
+},
     "image": "/imgs/Get Into It 3 Piece Garter Set.webp",
     "gallery": [
       "/imgs/Get Into It 3 Piece Garter Set.webp",
@@ -186,6 +245,25 @@ const PRODUCT_MEDIA = {
     ]
   },
   "leave-you-breathless": {
+    "colorMedia": {
+      "Fuchsia": [
+            "/imgs/Leave You Breathless Babydoll.webp",
+            "/imgs/Leave You Breathless Babydoll Additional Images/01-09-26_S5_10_COS053_Fuchsia_ZSR_LB_PC_10-46-40_PLUS_32461_PXF.webp",
+            "/imgs/Leave You Breathless Babydoll Additional Images/12-21-23_S3_31_COS053_Fuchsia_TK_SS_12-45-52_0018_SL_SL.webp",
+            "/imgs/Leave You Breathless Babydoll Additional Images/12-21-23_S3_31_COS053_Fuchsia_TK_SS_12-46-00_0021_PXF.webp",
+            "/imgs/Leave You Breathless Babydoll Additional Images/12-21-23_S3_31_COS053_Fuchsia_TK_SS_12-46-20_0024_PXF.webp"
+      ],
+      "Burgundy": [
+            "/imgs/Leave You Breathless Babydoll Additional Images/07-16-26_S7_31_COS053_Burgundy_JG_NL_11-32-50_44820-FN_Lana-_MWA_BH.webp",
+            "/imgs/Leave You Breathless Babydoll Additional Images/07-16-26_S7_31_COS053_Burgundy_JG_NL_11-33-18_44827-FN_Lana-_MWA_BH.webp",
+            "/imgs/Leave You Breathless Babydoll Additional Images/07-16-26_S7_31_COS053_Burgundy_JG_NL_11-33-32_44831-FN_Lana-_MWA.webp"
+      ],
+      "Plum": [
+            "/imgs/Leave You Breathless Babydoll Additional Images/07-16-26_S7_32_COS053_Plum_JG_NL_11-37-04_44838-FN_Lana-_MWA.webp",
+            "/imgs/Leave You Breathless Babydoll Additional Images/07-16-26_S7_32_COS053_Plum_JG_NL_11-37-14_44841-FN_Lana-_MWA.webp",
+            "/imgs/Leave You Breathless Babydoll Additional Images/07-16-26_S7_32_COS053_Plum_JG_NL_11-37-55_44847-FN_Lana-_MWA.webp"
+      ]
+},
     "image": "/imgs/Leave You Breathless Babydoll.webp",
     "gallery": [
       "/imgs/Leave You Breathless Babydoll.webp",
@@ -219,6 +297,19 @@ const PRODUCT_MEDIA = {
     ]
   },
   "make-them-stare": {
+    "colorMedia": {
+      "Black": [
+            "/imgs/Make Them Stare Mesh Teddy.webp",
+            "/imgs/Make Them Stare Mesh Teddy Additional Images/05-23-24_S7_19_KAT083_Black_RD_AA_11-50-14_98914_PXF.webp",
+            "/imgs/Make Them Stare Mesh Teddy Additional Images/05-23-24_S7_19_KAT083_Black_RD_AA_11-50-59_98920_PXF.webp",
+            "/imgs/Make Them Stare Mesh Teddy Additional Images/05-29-24_S4_11_KAT083_Black_TK_DO_11-35-03_PLUS_13065_PXF.webp"
+      ],
+      "Blue": [
+            "/imgs/Make Them Stare Mesh Teddy Additional Images/MakeThemStareMeshTeddy-Blue_MER.webp",
+            "/imgs/Make Them Stare Mesh Teddy Additional Images/06-29-21Studio2_ME_KG_15-41-55_9_KAT083_Blue_11169_RG.webp",
+            "/imgs/Make Them Stare Mesh Teddy Additional Images/06-29-21Studio2_ME_KG_15-41-55_9_KAT083_Blue_11174_RG.webp"
+      ]
+},
     "image": "/imgs/Make Them Stare Mesh Teddy.webp",
     "gallery": [
       "/imgs/Make Them Stare Mesh Teddy.webp",
@@ -231,6 +322,25 @@ const PRODUCT_MEDIA = {
     ]
   },
   "melt-for-me": {
+    "colorMedia": {
+      "Wine": [
+            "/imgs/Melt For Me Lace Garter 3 Piece Set.webp",
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/06-24-26_S3_8_GAR023_Wine_JG_SS_10-10-24_3026-FN_Remi-_PXF_SG.webp",
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/06-24-26_S3_8_GAR023_Wine_JG_SS_10-10-36_3032-FN_Remi-_PXF.webp",
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/06-24-26_S3_8_GAR023_Wine_JG_SS_10-11-43_3043-FN_Remi-_PXF.webp"
+      ],
+      "Black": [
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/10-26-23Studio3_CB_SS_14-14-57_55_GAR023_Black_6006_PLUS_PXF_EH.webp",
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/11-06-23Studio3_TK_DB_10-54-39_22_GAR023_Black_P_9712_PXF.webp",
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/11-06-23Studio3_TK_DB_10-55-01_22_GAR023_Black_P_9718_PXF.webp",
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/11-06-23Studio3_TK_DB_10-55-33_22_GAR023_Black_P_9721_PXF.webp"
+      ],
+      "Red": [
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/11-06-23Studio3_TK_DB_10-32-53_19_GAR023_Red_P_9667_PXF.webp",
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/11-06-23Studio3_TK_DB_10-33-07_19_GAR023_Red_P_9670_PXF.webp",
+            "/imgs/Melt For Me Lace Garter 3 Piece Set Additional Images/11-06-23Studio3_TK_DB_10-33-21_19_GAR023_Red_P_9673_PXF.webp"
+      ]
+},
     "image": "/imgs/Melt For Me Lace Garter 3 Piece Set.webp",
     "gallery": [
       "/imgs/Melt For Me Lace Garter 3 Piece Set.webp",
@@ -247,6 +357,19 @@ const PRODUCT_MEDIA = {
     ]
   },
   "mikayla-satin": {
+    "colorMedia": {
+      "Black": [
+            "/imgs/Mikayla 3 Piece Satin Bra And Panty.webp",
+            "/imgs/Mikayla 3 Piece Satin Bra And Panty Additional Images/10-08-25_S2PM_119_ZDS1064_Black_KJ_SS_17-57-10_41711_PXF.webp",
+            "/imgs/Mikayla 3 Piece Satin Bra And Panty Additional Images/10-08-25_S2PM_119_ZDS1064_Black_KJ_SS_17-57-15_41714_PXF.webp",
+            "/imgs/Mikayla 3 Piece Satin Bra And Panty Additional Images/10-08-25_S2PM_119_ZDS1064_Black_KJ_SS_17-57-20_41716_PXF.webp"
+      ],
+      "Pink": [
+            "/imgs/Mikayla 3 Piece Satin Bra And Panty Additional Images/10-09-25_S3_14_ZDS1064_Pink_AB_SS_09-53-08_PLUS_30339_PXF_BH.webp",
+            "/imgs/Mikayla 3 Piece Satin Bra And Panty Additional Images/10-20-25_S1_16_ZDS1064_Pink_ZSR_RK_RA_13-12-20_0001_PXF.webp",
+            "/imgs/Mikayla 3 Piece Satin Bra And Panty Additional Images/10-20-25_S1_16_ZDS1064_Pink_ZSR_RK_RA_13-13-40_0023_PXF.webp"
+      ]
+},
     "image": "/imgs/Mikayla 3 Piece Satin Bra And Panty.webp",
     "gallery": [
       "/imgs/Mikayla 3 Piece Satin Bra And Panty.webp",
@@ -303,6 +426,27 @@ const PRODUCT_MEDIA = {
     ]
   },
   "sultry-moments": {
+    "colorMedia": {
+      "Slate Blue": [
+            "/imgs/Sultry Moments 2 Piece Set.webp",
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/06-19-26_S7_50_206GE_SlateBlue_SL_EO_14-27-47_26029-FN_Remi-_PXF.webp",
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/06-19-26_S7_50_206GE_SlateBlue_SL_EO_14-27-55_26034-FN_Remi-_PXF.webp",
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/206GE_SlateBlue_JR_V1.webp"
+      ],
+      "Burgundy": [
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/06-30-26_S1_9_206GE_Burgundy_LR_IM_11-32-46_51557-FN_Helena-FN-HelenaBG-2_PXF.webp",
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/06-30-26_S1_9_206GE_Burgundy_LR_IM_11-32-46_51557-FN_Helena-FN-HelenaBG-4_PXF.webp"
+      ],
+      "Black": [
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/12-20-23_S3_6_206GE_Black_P_TK_SS_10-45-56_13335_PXF.webp",
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/12-20-23_S3_6_206GE_Black_P_TK_SS_10-46-16_13338_PXF.webp"
+      ],
+      "Turquoise": [
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/12-20-23_S3_8_206GE_Turquoise_P_TK_SS_10-51-46_13350_PXF.webp",
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/12-20-23_S3_8_206GE_Turquoise_P_TK_SS_10-51-56_13353_PXF.webp",
+            "/imgs/Sultry Moments 2 Piece Set Additional Images/12-20-23_S3_8_206GE_Turquoise_P_TK_SS_10-52-36_13355_PXF.webp"
+      ]
+},
     "image": "/imgs/Sultry Moments 2 Piece Set.webp",
     "gallery": [
       "/imgs/Sultry Moments 2 Piece Set.webp",

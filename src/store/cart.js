@@ -11,8 +11,9 @@ export const useCart = create(
 
       addItem: (product) =>
         set((state) => {
+          const itemColor = product.color || 'Default'
           const existing = state.items.find(
-            (i) => i.id === product.id && i.size === product.size
+            (i) => i.id === product.id && i.size === product.size && (i.color || 'Default') === itemColor
           )
           if (existing) {
             return {
@@ -21,18 +22,18 @@ export const useCart = create(
               ),
             }
           }
-          return { items: [...state.items, { ...product, qty: 1 }] }
+          return { items: [...state.items, { ...product, color: itemColor, qty: 1 }] }
         }),
 
-      removeItem: (id, size) =>
+      removeItem: (id, size, color) =>
         set((state) => ({
-          items: state.items.filter((i) => !(i.id === id && i.size === size)),
+          items: state.items.filter((i) => !(i.id === id && i.size === size && (i.color || 'Default') === (color || 'Default'))),
         })),
 
-      updateQty: (id, size, qty) =>
+      updateQty: (id, size, color, qty) =>
         set((state) => ({
           items: state.items
-            .map((i) => (i.id === id && i.size === size ? { ...i, qty } : i))
+            .map((i) => (i.id === id && i.size === size && (i.color || 'Default') === (color || 'Default') ? { ...i, qty } : i))
             .filter((i) => i.qty > 0),
         })),
 

@@ -30,14 +30,25 @@ export default function CartDrawer({ open, onClose }) {
           <>
             <div className="drawer-items">
               {items.map((item) => (
-                <article className="drawer-item" key={`${item.id}-${item.size}`}>
+                <article className="drawer-item" key={`${item.id}-${item.size}-${item.color || 'Default'}`}>
                   {item.image && <img src={item.image} alt="" />}
-                  <div className="drawer-item-copy"><h3>{item.name}</h3><p>Size {item.size}</p><button type="button" onClick={() => removeItem(item.id, item.size)}>Remove</button></div>
-                  <div className="drawer-item-controls"><strong>{money(item.price * item.qty)}</strong><div className="quantity-control"><button type="button" onClick={() => updateQty(item.id, item.size, item.qty - 1)} aria-label={`Decrease ${item.name} quantity`}>−</button><span>{item.qty}</span><button type="button" onClick={() => updateQty(item.id, item.size, item.qty + 1)} aria-label={`Increase ${item.name} quantity`}>+</button></div></div>
+                  <div className="drawer-item-copy">
+                    <h3>{item.name}</h3>
+                    <p>Size {item.size}{item.color && item.color !== 'Default' ? ` · ${item.color}` : ''}</p>
+                    <button type="button" onClick={() => removeItem(item.id, item.size, item.color)}>Remove</button>
+                  </div>
+                  <div className="drawer-item-controls">
+                    <strong>{money(item.price * item.qty)}</strong>
+                    <div className="quantity-control">
+                      <button type="button" onClick={() => updateQty(item.id, item.size, item.color, item.qty - 1)} aria-label={`Decrease ${item.name} quantity`}>−</button>
+                      <span>{item.qty}</span>
+                      <button type="button" onClick={() => updateQty(item.id, item.size, item.color, item.qty + 1)} aria-label={`Increase ${item.name} quantity`}>+</button>
+                    </div>
+                  </div>
                 </article>
               ))}
             </div>
-            <footer className="cart-drawer-footer"><p><span>Subtotal</span><strong>{money(total())}</strong></p><small>Shipping and taxes are calculated at checkout.</small><Link to="/checkout" onClick={onClose}>Checkout</Link><Link className="view-bag" to="/cart" onClick={onClose}>View bag</Link></footer>
+            <footer className="cart-drawer-footer"><p><span>Subtotal</span><strong>{money(total())}</strong></p><small>Shipping and taxes are calculated at checkout.</small><Link to="/checkout" onClick={onClose}>Proceed to Checkout</Link><Link className="view-bag" to="/cart" onClick={onClose}>View bag</Link></footer>
           </>
         )}
       </aside>

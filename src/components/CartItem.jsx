@@ -7,17 +7,17 @@ export default function CartItem({ item }) {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
       <span style={{ flex: 1 }}>
-        {item.name} ({item.size})
+        {item.name} ({item.size}{item.color && item.color !== 'Default' ? `, ${item.color}` : ''})
       </span>
       <input
         type="number"
         min="1"
         value={item.qty}
-        onChange={(e) => updateQty(item.id, item.size, Number(e.target.value))}
+        onChange={(e) => updateQty(item.id, item.size, item.color, Number(e.target.value))}
         style={{ width: 48 }}
       />
       <span>${(item.price * item.qty).toFixed(2)}</span>
-      <button onClick={() => removeItem(item.id, item.size)}>Remove</button>
+      <button onClick={() => removeItem(item.id, item.size, item.color)}>Remove</button>
     </div>
   )
 }
