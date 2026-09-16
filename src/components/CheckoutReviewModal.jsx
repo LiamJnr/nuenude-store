@@ -82,7 +82,7 @@ export default function CheckoutReviewModal({
                     <strong>{moneyGHS(ghsEquivalent)}</strong>
                   </div>
                   <p className="currency-conversion-note" style={{ fontSize: '11px', opacity: 0.9 }}>
-                    Your card will be billed in Ghanaian Cedis (GH₵) at the bank conversion rate, matching your exact store total of <strong>{moneyUSD(usdTotal)}</strong> with no additional merchant fees.
+                    For buyers in Africa, your card will be billed in Ghanaian Cedis (GH₵) at the bank conversion rate, matching your exact store total of <strong>{moneyUSD(usdTotal)}</strong> with no additional merchant fees.
                   </p>
                 </>
               )}
