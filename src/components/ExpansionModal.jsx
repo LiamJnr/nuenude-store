@@ -73,7 +73,7 @@ export default function ExpansionModal() {
           </div>
 
           <button className="expansion-modal-btn" onClick={handleShopNow} type="button">
-            PROCEED TO CHECKOUT
+            SHOP NOW
           </button>
 
           <p className="expansion-modal-footer">
